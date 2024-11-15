@@ -3,5 +3,5 @@ let input= document.getElementById("fname")
 
 input.addEventListener("blur", () => {
 	let temp= input.value.toUpperCase()
-	ip.value= temp
+	input.value= temp
 })
